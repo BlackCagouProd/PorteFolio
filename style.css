@@ -41,13 +41,13 @@ button {
 
 img {
     border: none;
+    height: 500px;
 }
 
 iframe {
     height: 600px;
     margin: 10px;
     border: none;
-    box-shadow: #000 3px 6px;
 }
 
 model-viewer {
