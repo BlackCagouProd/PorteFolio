@@ -144,4 +144,8 @@ footer {
         margin: 55%;
         margin-top: -117px;
     }
+    img {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
 }
