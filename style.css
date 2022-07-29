@@ -60,10 +60,6 @@ model-viewer {
     font-weight: bold;
 }
 
-.contain div {
-    height: auto;
-}
-
 .bP {
     display: flex;
     justify-content: space-evenly;
