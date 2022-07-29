@@ -39,7 +39,8 @@ button {
 img {
     border: none;
     height: 500px;
-    margin-top: -117px;
+    margin-bottom: -117px;
+    margin-left: 35%;
 }
 
 iframe {
