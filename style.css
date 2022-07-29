@@ -2,9 +2,7 @@ body {
     display: grid;
     margin: 0;
     font-family: 'Dosis', sans-serif;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
+    background-color: #000;
 }
 
 h1 {
@@ -118,7 +116,6 @@ footer {
         text-align: center;
     }
     h1 {
-        margin: 50px;
         writing-mode: horizontal-tb;
         text-align: center;
     }
@@ -139,6 +136,8 @@ footer {
     .white p {
         margin-left: 50px;
         margin-top: -88px;
+        text-align: end;
+        margin-right: 10px;
     }
     iframe {
         margin: 55%;
