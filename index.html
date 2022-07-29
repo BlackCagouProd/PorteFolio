@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
 </head>
 
 <body>
@@ -21,9 +22,11 @@
         <div class="bP">
             <h1> Mind & Feeling Developer</h1>
 
-
-            <p><img src="img/pdp.png" alt="" srcset="" width="auto" height="300"> <br>| Nom : Wahaga <br>| Prénom : Clément <br>| ID : BlackCagou <br>| Age : 32 <br>| Genre : M <br><br>
-                <button type="submit"> <a href="./cv/Cv2022.pdf">Télecharger mon CV</a> </button>
+            <model-viewer src="./img/c64fbbd0-d776-4214-b615-0e076bda336c.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar>
+            </model-viewer>
+            <p>
+                <br>| Nom : Wahaga <br>| Prénom : Clément <br>| ID : BlackCagou <br>| Age : 32 <br>| Genre : M <br><br>
+                <button type="submit"> <a href="./cv/Cv.pdf">Télecharger mon CV</a> </button>
             </p>
 
 
@@ -90,7 +93,10 @@
         <a href="https://www.linkedin.com/in/cl%C3%A9ment-wahaga-33788120b/"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/BlackCagouProd"><i class="fa-brands fa-github-square"></i></a>
     </footer>
-
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+    </script>
 
 
 
