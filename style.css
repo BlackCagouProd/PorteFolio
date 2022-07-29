@@ -2,7 +2,6 @@ body {
     display: grid;
     margin: 0;
     font-family: 'Dosis', sans-serif;
-    background-image: url(./img/302b3212085767.562571ba63087.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
@@ -42,6 +41,7 @@ button {
 img {
     border: none;
     height: 500px;
+    margin-top: -117px;
 }
 
 iframe {
@@ -53,12 +53,12 @@ iframe {
 model-viewer {
     height: 600px;
     width: 300px;
+    background-color: #000;
 }
 
 .contain {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
-    opacity: 0.8;
     font-weight: bold;
 }
 
@@ -114,6 +114,34 @@ footer {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     body {
-        line-height: 1.4
+        line-height: 1.4;
+        text-align: center;
+    }
+    h1 {
+        margin: 50px;
+        writing-mode: horizontal-tb;
+        text-align: center;
+    }
+    .bP {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    model-viewer {
+        width: 50%;
+        height: 450px;
+        border: none;
+        margin-left: 170px;
+    }
+    .white {
+        width: 50%;
+        display: inline;
+    }
+    .white p {
+        margin-left: 50px;
+        margin-top: -88px;
+    }
+    iframe {
+        margin: 55%;
+        margin-top: -117px;
     }
 }
