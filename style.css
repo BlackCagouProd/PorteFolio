@@ -19,6 +19,11 @@ h2 {
     text-orientation: sideways-right;
 }
 
+h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -102,6 +107,7 @@ model-viewer {
     border: #fff solid 2px;
     justify-content: center;
     padding-top: 30px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 footer {
