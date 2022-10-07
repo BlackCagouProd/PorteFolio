@@ -110,8 +110,8 @@ model-viewer {
 .four div {
     border: #fff solid 2px;
     justify-content: center;
-    padding-top: 30px;
-    border-radius: 10px 10px 10px 10px;
+    /* padding-top: 30px;
+    border-radius: 10px 10px 10px 10px; */
 }
 
 footer {
@@ -122,9 +122,20 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
     body {
         line-height: 1.4;
         text-align: center;
+        justify-content: center;
+    }
+    button {
+        margin-bottom: 15px;
+    }
+    .contain {
+        max-width: 100%;
     }
     h1 {
         writing-mode: horizontal-tb;
@@ -134,14 +145,17 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .four {
+        width: max-content;
+        margin-left: 30px;
+    }
     model-viewer {
         width: 50%;
         height: 450px;
         border: none;
-        margin-left: 170px;
+        margin-left: 90px;
     }
     .white {
-        width: 50%;
         display: inline;
     }
     .white p {
@@ -150,11 +164,12 @@ footer {
         text-align: end;
         margin-right: 10px;
     }
-    iframe {
+    /* iframe {
         margin: 55%;
         margin-top: -117px;
-    }
+    } */
     img {
+        display: none;
         margin-bottom: 0;
         margin-left: 0;
     }
