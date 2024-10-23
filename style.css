@@ -21,7 +21,7 @@ body.dark-mode {
 .sidebar {
     background-color: #e0e0e0;
     width: 200px;
-    height: 100vh;
+    height: 100%;
     padding: 20px 10px;
     position: fixed;
     transition: width 0.3s ease, background-color 0.3s ease;
@@ -223,7 +223,7 @@ body.dark-mode .sph {
     transition: background 0.3s, box-shadow 0.3s;
 }
 
-.sph h4 .dark-mode {
+.sph  h4.dark-mode {
     background: #2e2e2e;
     box-shadow: inset 19px 19px 3px #1a1a1a, inset -19px -19px 3px #3a3a3a;
     color: #ffffff;
@@ -412,6 +412,15 @@ body.dark-mode .circle {
     box-shadow:  30px 30px 60px #989898,
                  -30px -30px 60px #ffffff;
     
+
+
+
+}
+.sph .middle iframe.dark-mode{
+   
+    background-color: #3a3a3a;
+    box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #4a4a4a;
+    color: #ffffff;
 
 
 
