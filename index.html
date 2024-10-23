@@ -2,26 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="p:domain_verify" content="b91f6411fad9fef0c0b64603242af1b7" />
-    <title>PortoFolio</title>
-    <link rel="icon" href="./img/pdp.png" type="image/icon type">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="p:domain_verify" content="b91f6411fad9fef0c0b64603242af1b7" />
+  <title>PortoFolio</title>
+  <link rel="icon" href="./img/pdp.png" type="image/icon type" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
 </head>
 
 <body>
-
-    <div class="contain">
+  <!-- <div class="contain">
         <div class="bP">
-            <h1> Mind & Feeling Developer</h1>
+           
 
             <model-viewer src="./img/c64fbbd0-d776-4214-b615-0e076bda336c.glb" alt="me" shadow-intensity="2" auto-rotate ar>
             </model-viewer>
@@ -112,18 +112,73 @@
         </div>
     </div>
     <footer>
-        <a href="https://twitter.com/BlackCagou"><i class="fa-brands fa-twitter-square"></i></a>
-        <a href="https://www.linkedin.com/in/cl%C3%A9ment-wahaga-33788120b/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/BlackCagouProd"><i class="fa-brands fa-github-square"></i></a>
+       
     </footer>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
     </script>
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
-    </script>
+    </script> -->
 
+  <div class="dashboard">
+    <nav class="sidebar">
+      <h1>Mon Portfolio</h1>
 
+      <ul>
+        <li>
+          <a href="index.html"><i class="fa-solid fa-house"> | Accueil</i></a>
+        </li>
+        <li>
+          <a href="apropos.html"><i class="fa-solid fa-user"> | A propos</i></a></i>
+        </li>
+        <li>
+          <a href="projet.html"> <i class="fa-solid fa-list-check"> | Projet</i></a>
 
+        </li>
+        <li>
+          <a href="competences.html">
+            <i class="fa-solid fa-kitchen-set"> | Competences</i></a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa-solid fa-address-card"> | Contact</i></a>
 
+        </li>
+      </ul>
+      <button class="toggle-theme"><i class="fa-solid fa-moon"></i></button>
+    </nav>
+  </div>
+  <div class="middle">
+    <div class="middleContent">
+      <h2> | Mind & Feeling Developer</h2>
+      <a href="apropos.html"> <i class="fa-solid fa-brain"></i></a>
+
+    </div>
+    <div class="middleContent">
+      <h2> | Consciences Numérique</h2>
+      <i class="fa-solid fa-lightbulb"></i>
+    </div>
+    <div class="middleContent">
+      <h2>| Cybersécurité</h2><i class="fa-solid fa-shield-halved"></i>
+    </div>
+    <div class="middleContent">
+      <div id="weather">
+        <p id="weather-info"></p>
+        <span id="weather-icon"></span>
+        
+      </div>
+      
+      
+    </div>
+  </div>
+
+  <footer>
+    <a href="https://twitter.com/BlackCagou"><i class="fa-brands fa-twitter-square"></i></a>
+    <a href="https://www.linkedin.com/in/cl%C3%A9ment-wahaga-33788120b/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/BlackCagouProd"><i class="fa-brands fa-github-square"></i></a>
+    <p>&copy; 2024 Clément WAHAGA</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="weather.js"></script>
+  <script src="map.js"></script>
 </body>
 
 </html>
