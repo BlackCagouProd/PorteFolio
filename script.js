@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('.middle').forEach(el => el.classList.add('dark-mode'));
         document.querySelector('footer').classList.add('dark-mode');
         document.querySelectorAll(' h4').forEach(el => el.classList.add('dark-mode')); // Ajout pour les h4
-        document.querySelector('iframe').classList.toggle('dark-mode');
+        document.querySelector('iframe').classList.add('dark-mode');
     }
 
     // Ajouter un écouteur d'événement au bouton de bascule de thème

@@ -438,7 +438,7 @@ font-size: larger;
 }
 #weather-icon{
     
-    font-size: 40px;
+    font-size: 150px;
 }
 #weather-info{
     margin-top: 50px;
@@ -450,6 +450,7 @@ font-size: larger;
     .sidebar {
         width: 60px;
         padding: 10px 5px;
+        display: hidden ;
     }
 
     .sidebar h2 {
@@ -468,6 +469,10 @@ font-size: larger;
     .content {
         margin-left: 80px; /* Réduit la marge du contenu principal */
     }
+
+    .middle{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 @media (max-width: 480px) {
@@ -482,5 +487,8 @@ font-size: larger;
 
     .content {
         margin-left: 60px; /* Ajuste la marge du contenu en fonction de la taille de la sidebar */
+    }
+    .middle{
+        grid-template-columns: repeat(1,1fr);
     }
 }
