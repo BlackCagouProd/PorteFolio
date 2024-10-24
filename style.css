@@ -447,11 +447,19 @@ font-size: larger;
 
 
 @media (max-width: 768px) {
+    body{
+        max-width: auto;
+    }
     .sidebar {
         width: 60px;
         padding: 10px 5px;
-        display: hidden ;
+        
     }
+
+    .sidebar h1{
+        max-width: auto;
+    }
+    
 
     .sidebar h2 {
         display: none; /* Masque le titre de la sidebar */
@@ -460,14 +468,20 @@ font-size: larger;
     .sidebar ul li a {
         padding: 10px 0;
         text-align: center; /* Centrer les icônes */
+        
+    }
+    .sidebar ul li a p{
+        display: none;
     }
 
     .sidebar ul li a span {
         display: none; /* Masquer le texte des liens */
     }
 
-    .content {
-        margin-left: 80px; /* Réduit la marge du contenu principal */
+    .sph .middle {
+        display: grid;
+        /* margin-left: 80px; Réduit la marge du contenu principal */
+        grid-template-columns: repeat(1,1fr);
     }
 
     .middle{
@@ -476,19 +490,45 @@ font-size: larger;
 }
 
 @media (max-width: 480px) {
+    body{
+        max-width: auto;
+    }
     .sidebar {
-        width: 50px; /* Réduit encore la largeur de la sidebar */
-        padding: 5px;
+        width: 60px;
+        padding: 10px 5px;
+        
+    }
+    .sidebar h1{
+        max-width: auto;
+    }
+    
+    
+
+    .sidebar h2 {
+        display: none; /* Masque le titre de la sidebar */
     }
 
     .sidebar ul li a {
-        padding: 8px 0;
+        padding: 10px 0;
+        text-align: center; /* Centrer les icônes */
+        
+    }
+    .sidebar ul li a p{
+        display: none;
     }
 
-    .content {
-        margin-left: 60px; /* Ajuste la marge du contenu en fonction de la taille de la sidebar */
+    .sidebar ul li a span {
+        display: none; /* Masquer le texte des liens */
     }
+
+    .sph .middle {
+        display: grid;
+        /* margin-left: 80px; Réduit la marge du contenu principal */
+        grid-template-columns: repeat(1,1fr);
+    }
+
     .middle{
         grid-template-columns: repeat(1,1fr);
     }
+
 }
