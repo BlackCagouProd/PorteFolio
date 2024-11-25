@@ -449,6 +449,7 @@ font-size: larger;
 @media (max-width: 768px) {
     body{
         max-width: auto;
+        height: auto;
     }
     .sidebar {
         width: 60px;
@@ -492,6 +493,7 @@ font-size: larger;
 @media (max-width: 480px) {
     body{
         max-width: auto;
+        height: auto;
     }
     .sidebar {
         width: 60px;
@@ -519,6 +521,12 @@ font-size: larger;
 
     .sidebar ul li a span {
         display: none; /* Masquer le texte des liens */
+    }
+
+    .sph{
+        max-height: 100%;
+        max-width: 100%;
+
     }
 
     .sph .middle {
